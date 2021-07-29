@@ -23,14 +23,14 @@ console.log(test) */
 
 //EventListener
 
-formularioUI.addEventListener('submit', (e) => { 
+formularioUI.addEventListener('submit', (e) => {
     e.preventDefault();
     let actividadUI = document.querySelector('#names').value;
-    
+
     CrearAlumno(actividadUI);
 
     formularioUI.reset(); //nos permite resetar el formulario cada vez que damos enter o click es decir se limpia el campo del formulario
-    
+
     GuardarAlumno();
 
 });
