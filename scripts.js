@@ -20,7 +20,6 @@ const GuardarAlumno = () => {
     VerAlumnos();
 } /* Los arrays no se pueden guardar dentro del localStorage es por eso que se utiliza la función JSON.stringify para convertirlos a strings */
     
-
 //Con esta función mostramos en el  los elementos que se van creando en el arreglo utilizando la interpolación
 const VerAlumnos = () => {
     listaAlumnosUI.innerHTML = '';
